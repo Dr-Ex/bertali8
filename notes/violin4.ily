@@ -9,5 +9,14 @@ violinIV = \relative c' {
   d2 d4 e~ |
   e4 e8 g g4 c,8 g' |
 
+  % Line 2
+  e2 e4. c8 |
+  d4 r e d |
+  d8 g e4 f f |
+  b,4 e e2 |
+  R1 |
+  d2 c4 d |
+  d4 r r8 e8 g4 |
+  g4 r r8 f f4 |
 
 }

@@ -12,5 +12,10 @@ violinIII = \relative c'' {
   % Line 2
   g2 r4 g |
   a4 r c a |
-  
+  g4 g a a |
+  e'2 cis |
+  R1 |
+  g4 b e, g |
+  f4 r r8 c' c4 |
+  b4 r r8 d d4 |
 }

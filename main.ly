@@ -14,7 +14,7 @@
 \header {
   title = "Sonata a 8"
   composer = "Antonio Bertali"
-
+  tagline = ##f
 }
 
 global= {
@@ -35,7 +35,7 @@ timeline = \new Voice {
 
   \textMark "Line 3"
   s1 * 4 \break
-  s1 * 2 
+  s1 * 2
   \cadenzaOn
   s1*2 \cadenzaOff \bar "||" \break
 

@@ -8,5 +8,14 @@ violaI = \relative c' {
   b4 a a4. g8 |
   g4. g8 g2 |
 
+  % Line 2
+  g2 r |
+  d'4. b8 c4 r |
+  g4. g8 f4 a |
+  r8 e e4 e2 |
+  a4 c g4. fis8 |
+  g4 r r2 |
+  r8 d' d4 g, r |
+  r8 b d4 d r |
 
 }

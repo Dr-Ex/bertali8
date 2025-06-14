@@ -31,6 +31,15 @@ continuo = {
       b'2 e, |
       c'2 gis |
       a1 e |
+
+      % Line 4
+      e'1
+      a2 g |
+      c2 fis, |
+      gis2 a |
+      e2 e |
+      e1 |
+      a1 |
     }
 
     \figures {
@@ -41,7 +50,7 @@ continuo = {
       s1 * 4 |
 
       % Line 2
-      s1 * 8 |
+      s1 * 9 |
 
       % Line 3
       s1 |
@@ -50,6 +59,14 @@ continuo = {
       s1 * 2 |
       s2 <6 5> |
       s1 * 2 |
+
+      % Line 4
+      s1 |
+      <6\\ 5>2 s |
+      s1 * 2 |
+      <_+>2 <6 4> |
+      <5 4+>1 |
+      <_+>1 |
     }
   >>
 }

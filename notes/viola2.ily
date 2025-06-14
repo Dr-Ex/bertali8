@@ -17,4 +17,13 @@ violaII = \relative c {
   d,4 r r2 |
   r8 f a8. b16 c4 r |
   r8 g g4 f r |
+
+  % Line 3
+  r8 c' c4 f, r |
+  r8 b a4 a r |
+  r8 e fis4 g r |
+  r8 fis b4 g4. b8 |
+  b2 b |
+  c2 e ~ |
+  e4 e b e, e1\fermata |
 }

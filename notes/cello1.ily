@@ -18,4 +18,13 @@ celloI = \relative c' {
   g2 a4 g |
   d4 r r8 c' c4 |
   g4 r r8 d' d4 |
+
+  % Line 3
+  c4 r r8 d, g4 |
+  e4 r r8 f d4 |
+  c4 r r8 g' e4 |
+  d4 r r8 g e4 |
+  b2 e |
+  e2 e |
+  a2 a, e'1\fermata |
 }

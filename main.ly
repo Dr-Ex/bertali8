@@ -34,8 +34,8 @@ timeline = \new Voice {
   s1 * 4 \break
 
   \textMark "Line 3"
-  s1 * 4 \break
-  s1 * 2
+  s1 * 3 \break
+  s1 * 3
   \cadenzaOn
   s1*2 \cadenzaOff \bar "||" \break
 
@@ -120,5 +120,4 @@ timeline = \new Voice {
     >>
   >>
   \layout { }
-  \midi { }
 }

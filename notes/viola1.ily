@@ -18,4 +18,12 @@ violaI = \relative c' {
   r8 d' d4 g, r |
   r8 b d4 d r |
 
+  % Line 3
+  r8 g, f4 a r |
+  r8 e' c4 c r |
+  r8 g a4 d, r |
+  r8 d' d b b4. g8 |
+  fis2 gis |
+  ges2 b |
+  r4 e,2 a4 gis1\fermata |
 }

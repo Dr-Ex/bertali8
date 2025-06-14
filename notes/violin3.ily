@@ -18,4 +18,13 @@ violinIII = \relative c'' {
   g4 b e, g |
   f4 r r8 c' c4 |
   b4 r r8 d d4 |
+
+  % Line 3
+  e4 r r8 a, g4 |
+  g4 r r8 c c4 |
+  d4 r r8 d cis4 |
+  d4 r r8 g, b4 |
+  b2 gis |
+  c2 b |
+  e,2 e4. f8 gis1\fermata |
 }

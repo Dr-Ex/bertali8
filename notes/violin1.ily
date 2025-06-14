@@ -19,5 +19,14 @@ violinI = \relative c'' {
   d4 r f8. g32 a d,8. e32 f |
 
   % Line 3
+  g4 r r8 f32 e d c d16 c d b |
+  e4 r r8 a32 g f e d16 c d b |
+  e4 r r8 b'32 a g fis g16 fis g e |
+  fis4 r r8 b32 a g fis g16 fis g e |
+  fis2 e |
+  g2 e4. d8 |
+  c1 b\fermata |
+
+  % Line 4
 }
 

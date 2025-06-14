@@ -19,4 +19,12 @@ violinIV = \relative c' {
   d4 r r8 e8 g4 |
   g4 r r8 f f4 |
 
+  % Line 3
+  e4 r r8 d b4 |
+  b4 r r8 f' f4 |
+  g4 r r8 g g4 |
+  a4 r r8 e e b |
+  b2 b |
+  e2 b |
+  c1 e\fermata |
 }

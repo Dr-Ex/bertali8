@@ -17,4 +17,13 @@ celloII = \relative c {
   g4 r r2 |
   r8 d' d4 c r |
   r8 g g4 d r |
+  
+  % Line 3
+  r8 c' f4 d r |
+  r8 e a4 f r |
+  r8 c a4 g r |
+  r8 d' b4 e4. e,8 |
+  b'2 e, |
+  c'2 gis |
+  a1 e\fermata |
 }

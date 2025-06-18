@@ -41,12 +41,15 @@ timeline = \new Voice {
 
   % p248
   \textMark "Line 4"
-  s1 * 5 \break
-  s1 * 4 \break
+  s1 * 2 \break
+  s1 * 2 \break
+  s1 * 3 \break
+  s1 * 2 \break
 
   \textMark "Line 5"
-  s1 * 4 \break
-  s1 * 4 \break
+  s1 * 2 \break
+  s1 * 3 \break
+  s1 * 3 \break
   s1 * 4 \break
 
   % p249

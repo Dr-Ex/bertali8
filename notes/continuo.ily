@@ -39,7 +39,17 @@ continuo = {
       gis2 a |
       e2 e |
       e1 |
-      a1 |
+      a,1 |
+
+      e'2 e |
+      a2 g |
+
+      % Line 5
+      c2 fis, |
+      gis2 a |
+      e2 e |
+      e1 |
+      a1\fermata |
     }
 
     \figures {
@@ -67,6 +77,14 @@ continuo = {
       <_+>2 <6 4> |
       <5 4+>1 |
       <_+>1 |
+
+      <_+>2 <_+> |
+      <6\\ 5>2 s2 |
+
+      % Line 5
+      s1 * 2 |
+      <_+>2 <6 4> |
+      s1 * 2
     }
   >>
 }

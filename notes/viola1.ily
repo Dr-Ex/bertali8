@@ -25,5 +25,9 @@ violaI = \relative c' {
   r8 d' d b b4. g8 |
   fis2 gis |
   ges2 b |
+  \once \omit Staff.TimeSignature
+  \time 2/1
   r4 e,2 a4 gis1\fermata |
+  \once \omit Staff.TimeSignature
+  \time 4/4
 }

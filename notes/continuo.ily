@@ -30,7 +30,11 @@ continuo = {
       d4 b e e, |
       b'2 e, |
       c'2 gis |
+      \once \omit Staff.TimeSignature
+      \time 2/1
       a1 e |
+      \once \omit Staff.TimeSignature
+      \time 4/4
 
       % Line 4
       e'1
@@ -50,6 +54,36 @@ continuo = {
       e2 e |
       e1 |
       a1\fermata |
+
+      f4 c g d' |
+      a e' d f |
+      c g8 b d4 a |
+      e'4 g d a |
+      e' c g' d |
+      a' f c g |
+
+      d'4 d, a' e'8 c |
+      % Line 6
+      d4 f c g |
+      d'8 f a4 e d |
+      a' e g8 d d4 |
+      a e' d c8 e |
+      g4 d8 f a4 g |
+      c,4 a e' d |
+      % Line 7
+      f c g d' |
+      a e' d f8 c |
+
+      c'4 bes f c8 e |
+      g4 d8 f a4 e |
+      d4 f c g8 b |
+      d4 a8 c e4 c |
+      g2 c, |
+      d'4. f8 c4 g |
+      % Line 8
+      d' a e' a, |
+      e1 |
+      a2 r |
     }
 
     \figures {
@@ -84,7 +118,17 @@ continuo = {
       % Line 5
       s1 * 2 |
       <_+>2 <6 4> |
-      s1 * 2
+      s1 * 2 %fermata
+
+      s1 * 5 |
+      <_->4 s2. |
+      s1 * 4 |
+      s4 <_-> s2 |
+      s2. <4 3>4 |
+      s1 * 2 |
+      s1 * 7 |
+      s2 <_+>4 s |
+      s1 * 2 | %fermata
     }
   >>
 }

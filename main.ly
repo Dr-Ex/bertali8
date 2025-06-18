@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.25.26"
 
 \include "definitions.ily"
 \include "notes/violin1.ily"
@@ -36,9 +36,12 @@ timeline = \new Voice {
   \textMark "Line 3"
   s1 * 3 \break
   s1 * 3
-  \cadenzaOn
-  s1*2 \cadenzaOff \bar "||" \break
+  \once \omit Staff.TimeSignature
+  \time 2/1
+  s1*2 \bar "||" \pageBreak
 
+  \once \omit Staff.TimeSignature
+  \time 4/4
   % p248
   \textMark "Line 4"
   s1 * 2 \break
@@ -95,32 +98,72 @@ timeline = \new Voice {
   \fine
 }
 
+\paper {
+  left-margin = 2\cm
+  right-margin = 0.5\cm
+}
+
 \score {
   <<
     \new StaffGroup <<
-      \new Staff \with { instrumentName = "Violin 1" }
+      \new Staff \with {
+        instrumentName = "Violin I"
+        shortInstrumentName = "Vln. I"
+      }
       << \timeline \global \violinI >>
-      \new Staff \with { instrumentName = "Violin 2" }
+      \new Staff \with {
+        instrumentName = "Violin II"
+        shortInstrumentName = "Vln. II"
+      }
       << \global \violinII >>
-      \new Staff \with { instrumentName = "Violin 3" }
+    >>
+    \new StaffGroup <<
+      \new Staff \with {
+        instrumentName = "Violin III"
+        shortInstrumentName = "Vln. III"
+      }
       << \global \violinIII >>
-      \new Staff \with { instrumentName = "Violin 4" }
+      \new Staff \with {
+        instrumentName = "Violin IV"
+        shortInstrumentName = "Vln. IV"
+      }
       << \global \violinIV >>
     >>
     \new StaffGroup <<
-      \new Staff \with { instrumentName = "Viola 1" }
+      \new Staff \with {
+        instrumentName = "Viola I"
+        shortInstrumentName = "Vla. I"
+      }
       << \global \violaI >>
-      \new Staff \with { instrumentName = "Viola 2" }
+      \new Staff \with {
+        instrumentName = "Viola II"
+        shortInstrumentName = "Vla. II"
+      }
       << \global \violaII >>
     >>
     \new StaffGroup <<
-      \new Staff \with { instrumentName = "Cello 1" }
+      \new Staff \with {
+        instrumentName = "Cello I"
+        shortInstrumentName = "Vcl. I"
+      }
       << \global \celloI >>
-      \new Staff \with { instrumentName = "Cello 2" }
+      \new Staff \with {
+        instrumentName = "Cello II"
+        shortInstrumentName = "Vcl. II"
+      }
       << \global \celloII >>
-      \new Staff \with { instrumentName = "Continuo" }
-      << \global \continuo >>
     >>
+    \new Staff \with {
+      instrumentName = "Continuo"
+      shortInstrumentName = "Bc."
+    }
+    << \global \continuo >>
   >>
-  \layout { }
+  \layout {
+    \context {
+      \StaffGroup
+      \RemoveEmptyStaves
+      \consists Keep_alive_together_engraver
+    }
+  }
 }

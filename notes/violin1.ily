@@ -48,5 +48,10 @@ violinI = \relative c'' {
   a1 |
   R1 * 6 |
   R1\fermata |
+
+  R1 * 2
+  e'8. d32 c b8 d f8. e32 d c8 e |
+  g4 r r2 |
+
 }
 

@@ -24,7 +24,11 @@ violinII = \relative c'' {
   r8 a32 g fis e fis16 e fis d e2 |
   r4 dis e2 |
   e2. b4 |
+  \once \omit Staff.TimeSignature
+  \time 2/1
   b4. c16[ b] a2 b1\fermata |
+  \once \omit Staff.TimeSignature
+  \time 4/4
 
   % Line 4
   R1 * 7 |

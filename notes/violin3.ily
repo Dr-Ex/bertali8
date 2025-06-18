@@ -26,5 +26,9 @@ violinIII = \relative c'' {
   d4 r r8 g, b4 |
   b2 gis |
   c2 b |
+  \once \omit Staff.TimeSignature
+  \time 2/1
   e,2 e4. f8 gis1\fermata |
+  \once \omit Staff.TimeSignature
+  \time 4/4
 }

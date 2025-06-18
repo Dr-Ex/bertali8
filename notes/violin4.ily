@@ -26,5 +26,9 @@ violinIV = \relative c' {
   a4 r r8 e e b |
   b2 b |
   e2 b |
+  \once \omit Staff.TimeSignature
+  \time 2/1
   c1 e\fermata |
+  \once \omit Staff.TimeSignature
+  \time 4/4
 }

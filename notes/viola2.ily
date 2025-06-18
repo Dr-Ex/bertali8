@@ -25,5 +25,9 @@ violaII = \relative c {
   r8 fis b4 g4. b8 |
   b2 b |
   c2 e ~ |
+  \once \omit Staff.TimeSignature
+  \time 2/1
   e4 e b e, e1\fermata |
+  \once \omit Staff.TimeSignature
+  \time 4/4
 }

@@ -26,5 +26,17 @@ celloI = \relative c' {
   d4 r r8 g e4 |
   b2 e |
   e2 e |
+  \once \omit Staff.TimeSignature
+  \time 2/1
   a2 a, e'1\fermata |
+  \once \omit Staff.TimeSignature
+  \time 4/4
+
+  \compressMMRests { R1*14 }
+
+  R1 |
+  c'8. b32 a g8 b d8. c32 b a8 c |
+  e4 r4 r2 |
+  e8. d32 c b8 d f8. e32 d c8 e |
+  g4 r4 r2 |
 }

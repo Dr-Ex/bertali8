@@ -17,7 +17,7 @@ celloII = \relative c {
   g4 r r2 |
   r8 d' d4 c r |
   r8 g g4 d r |
-  
+
   % Line 3
   r8 c' f4 d r |
   r8 e a4 f r |
@@ -25,5 +25,18 @@ celloII = \relative c {
   r8 d' b4 e4. e,8 |
   b'2 e, |
   c'2 gis |
+  \once \omit Staff.TimeSignature
+  \time 2/1
   a1 e\fermata |
+  \once \omit Staff.TimeSignature
+  \time 4/4
+
+
+  \compressMMRests { R1*14 }
+
+  f'8. e32 d c8 e g8. f32 e d8 f |
+  a4 r r2 |
+  c,8. b32 a g8 b d8. c32 b a8 c |
+  e4 g8. f32 e d8 f a8. g32 f |
+  e8 g c4 r2 |
 }

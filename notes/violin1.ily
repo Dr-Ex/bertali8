@@ -28,9 +28,10 @@ violinI = \relative c'' {
   c1 b\fermata |
 
   % Line 4
-
-  r32 b c d e f g a b g a b e, b c d
-    e g f e b' b, c a b g a b e,8 |
+  \set suggestAccidentals = ##t
+  r32 b c d e fis g a b g a b e, b c d
+    e g fis e b' b, c a b g a b e,8 |
+  \set suggestAccidentals = ##f
   r16 a32 b c d e fis g fis g fis g fis e fis
     g16 d b g b32 c d c b a g f |
 
@@ -41,8 +42,8 @@ violinI = \relative c'' {
     \set suggestAccidentals = ##f
     e16 e' c a a'32 g f e d c b a |
   gis32 e fis gis a b c d
-    e fis gis a b8
-    r32 e, fis gis a b, c d e
+    e f! g! a b8
+    r32 e, f g a b, c d e
     e, fis gis a c b a |
   b32 e f g a b, c d e e, f g a c b a b2 |
   a1 |

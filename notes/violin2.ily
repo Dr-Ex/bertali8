@@ -33,14 +33,19 @@ violinII = \relative c'' {
   % Line 4
   R1 * 7 |
   r32 b c d e fis gis a b gis a b e, b c d
-    e gis fis e b' b, c a b g a b e,8 |
-  r16 a32 b c d e f g fis g fis g fis e fis
+    \set suggestAccidentals = ##t
+    e g! fis! e b' b, c a b g a b e,8 |
+
+  r16 a32 b c d e fis! \set suggestAccidentals = ##f
+    g fis! g fis g fis e fis
     g16 d b g b32 c d c b a g f |
 
   % Line 5
   e16 g' e c e32 fis g fis e d c b
     a16 a' fis d fis32 g a g fis e d c |
-  b16 b' g e b32 c d c b a g f
+    \set suggestAccidentals = ##t
+  b16 b' gis! e b32 c d c b a g f
+    \set suggestAccidentals = ##f
     e16 e' c a a'32 g f e d c b a |
   gis32 e fis gis a b c d e f g a b8
     r32 e, f g a b, c d e e, fis gis a c b a |

@@ -53,6 +53,28 @@ violinI = \relative c'' {
   R1 * 2
   e'8. d32 c b8 d f8. e32 d c8 e |
   g4 r r2 |
-
+  r4 e16 e e e d d d d f f f f |
+  e4 r r2 |
+  
+  r4 f16 f f f e e e e g g g g |
+  f4 r e8. d32 c b8 d |
+  f8. e32 d c8 e g4 r |
+  r4 e8. d32 c b8 d f8. e32 d |
+  c8 e g4 f8 a c4 |
+  r4 f,8. e32 d c8 e g4 |
+  e2 g16 g g g f f f f |
+  a a a a g4 r2 |
+  
+  r2 f8. e32 d c8 e |
+  g8. f32 e d8 f a4 r |
+  r2 c,8. b32 a g8 b |
+  d8. c32 b a8 c e4 b'16 b b b |
+  a a a a c c c c g4. c16 c |
+  c4. b8 c4 g16 g g g |
+  f f f f a a a a g4 r |
+  r a16 a a a gis gis gis gis c c c c |
+  
+  b b b b a a a a a4. gis8 |
+  a2\fermata r2
 }
 

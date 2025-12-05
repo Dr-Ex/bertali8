@@ -83,7 +83,7 @@ continuo = {
       % Line 8
       d' a e' a, |
       e1 |
-      a2 r |
+      a2\fermata r |
     }
 
     \figures {

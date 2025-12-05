@@ -39,4 +39,11 @@ celloII = \relative c {
   c,8. b32 a g8 b d8. c32 b a8 c |
   e4 g8. f32 e d8 f a8. g32 f |
   e8 g c4 r2 |
+  r4 f,16 f f f e e e e g g g g |
+  
+  f4 r r2 |
+  r4 f8. e32 d c8 e g8. f32 e |
+  d8 f a4 r2 |
+  r2 r4 d8. c32 b |
+  a8 c e4 f8/ 
 }

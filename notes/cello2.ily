@@ -44,6 +44,65 @@ celloII = \relative c {
   f4 r r2 |
   r4 f8. e32 d c8 e g8. f32 e |
   d8 f a4 r2 |
-  r2 r4 d8. c32 b |
-  a8 c e4 f8/ 
+  r2 r4 d,8. c32 b |
+  a8 c e4 f8. e32 d e8 e |
+  g8. f32 e d8 f a4 g |
+  c,4 r r2 |
+  f16 f f f e e e e g g g g f4 |
+  
+  R1 
+  r2 f8. e32 d c8 e |
+  g8. f32 e d8 f a4 e16 e e e |
+  d d d d f f f f e4 g16 g g g |
+  f f f f a a a a g4. c,8 |
+  g2 c, |
+  r2 c'8. b32 a g8 b |
+  d8. c32 b a8 c e4 a, |
+  
+  e1 | a2\fermata r2 |
+  
+  f2. f4 c' c |
+  g2. g4 d' d |
+  a2. a4 e'2 |
+  c f,1 |
+  e1. |
+  c'2. b8 a g2 |
+  
+  % Line 10 p251
+  d'2. c8 b a2 |
+  d,2 e1 |
+  a1. |
+  R1*3/2 * 4
+  e'2 c a |
+  
+  % Line 11
+  d b g |
+  c a d |
+  b d1 |
+  g, r2 |
+  R1*3/2 * 3 |
+  fis'2 d b |
+  
+  % Line 12 p252
+  e c a |
+  d b e |
+  cis e e, |
+  a1. |
+  f2. f4 c' c |
+  g2. g4 d' d|
+  a2. a4 e'2 |
+  c f,1 |
+  
+  % Line 13
+  e1. |
+  c'2. b8 a g2 |
+  d'2. c8 b a2 | 
+  d,2 e1 |
+  a1. |
+  \time 4/4
+  R1*6
+  
+  %Line 14 p253
+  d,1 d d d |
+  a'\longa
 }

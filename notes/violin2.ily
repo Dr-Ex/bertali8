@@ -51,4 +51,31 @@ violinII = \relative c'' {
     r32 e, f g a b, c d e e, fis gis a c b a |
   b32 e f g a b, c d e e, f g a c b a b2 |
   a1\fermata |
+  
+  R1*4
+  r4 c16 c c c b b b b d d d d |
+  c4 r r2 |
+  
+  r4 d16 d d d c c c c e e e e |
+  d4 r r2 |
+  r2 r4 f8. e32 d |
+  c8 e g8. f32 e d8 f a4 |
+  r2 a8. g32 f e8 g |
+  b4 r r8 c, d4 |
+  c c16 c c c b b b b d d d d |
+  c4 r r2 |
+  
+  c8. b32 a g8 b d8. c32 b a8 c |
+  e4 r r e16 e e e |
+  d d d d f f f f e4 g16 g g g |
+  f16 f f f a a a a g4. d8 |
+  f8. e32 d c8 e g8. f32 g e8 e |
+  d2 c4 e16 e e e |
+  d d d d f f f f e4 g16 g g g |
+  f f f f r4 r a16 a a a |
+  
+  g16 g g g c c c c b2 |
+  a\fermata r2 |
+  
+  
 }

@@ -43,37 +43,42 @@ timeline = \new Voice {
   \once \omit Staff.TimeSignature
   \time 4/4
   % p248
-  \textMark "Line 4"
-  s1 * 2 \break
+  s1 
+  \textMark "Line 4" 
+  s1 \break
   s1 * 2 \break
   s1 * 3 \break
-  s1 * 2 \break
-
+  s2
+  
   \textMark "Line 5"
+  s2 | s1 \break
   s1 * 2 \break
-  s1 * 3 \break
-  s1 * 3 \break
-  s1 * 4 \break
-
+  s1
+  
   % p249
   \textMark "Line 6"
+  s1 * 2 \break
+  % new section
   s1 * 3 \break
   s1 * 3 \break
-
+  
   \textMark "Line 7"
   s1 * 4 \break
   s1 * 4 \break
 
   % p250
   \textMark "Line 8"
-  s1 * 5 \break
-  s1 * 5 \break
+  s1 * 4 \break
+  s1 * 4 \break
+
+  \textMark "Line 9"
+  s1 * 2 \bar "||" \break
 
   \time 3/2
-  \textMark "Line 9"
-  s1*3/2 * 5 \break
+  
+  s1*3/2 * 6 \break
 
-  % p251 (one bar from 250)
+  % p251
   \textMark "Line 10"
   s1*3/2 * 4 \break
   s1*3/2 * 4 \break
@@ -82,18 +87,22 @@ timeline = \new Voice {
   s1*3/2 * 4 \break
   s1*3/2 * 4 \break
 
-  % p252 (one bar from 251)
+  % p252
   \textMark "Line 12"
-  s1*3/2 * 5 \break
-  s1*3/2 * 5 \break
-  \textMark "Line 13"
   s1*3/2 * 4 \break
+  s1*3/2 * 4 \break
+  
+  \textMark "Line 13"
+  s1*3/2 * 5 \bar "||" \break
 
   \time 4/4
-  s1 * 4 \break
+  s1 * 3 \break
+  
   \textMark "Line 14"
   s1 * 3 \break
   s1 * 4
+  \time 4/1
+  s\longa
 
   \fine
 }
@@ -160,6 +169,7 @@ timeline = \new Voice {
     << \global \continuo >>
   >>
   \layout {
+    #(layout-set-staff-size 16)
     \context {
       \StaffGroup
       \RemoveEmptyStaves

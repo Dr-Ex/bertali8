@@ -26,11 +26,7 @@ celloI = \relative c' {
   d4 r r8 g e4 |
   b2 e |
   e2 e |
-  \once \omit Staff.TimeSignature
-  \time 2/1
   a2 a, e'1\fermata |
-  \once \omit Staff.TimeSignature
-  \time 4/4
 
   \compressMMRests { R1*14 }
 
@@ -109,5 +105,6 @@ celloI = \relative c' {
   \time 4/4
   s1 * 6
   d1 d d d |
-  a\longa
+  a\longa\fermata
+  \fine
 }

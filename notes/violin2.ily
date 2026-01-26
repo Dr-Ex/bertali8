@@ -24,11 +24,7 @@ violinII = \relative c'' {
   r8 a32 g fis e fis16 e fis d e2 |
   r4 dis e2 |
   e2. b4 |
-  \once \omit Staff.TimeSignature
-  \time 2/1
   b4. c16[ b] a2 b1\fermata |
-  \once \omit Staff.TimeSignature
-  \time 4/4
 
   % Line 4
   R1 * 7 |
@@ -74,8 +70,60 @@ violinII = \relative c'' {
   d d d d f f f f e4 g16 g g g |
   f f f f r4 r a16 a a a |
   
+  % Line 9
   g16 g g g c c c c b2 |
   a\fermata r2 |
   
+  a2. a4 g g |
+  g2. d4 f f |
+  e2. e4 g2 | % TODO: Editorial change g to e
+  e2 e d |
+  e1 r2 |
+  e2. d8 c b2 |
   
+  % Line 10 p251
+  a1. 	        |
+  a2 a2. gis4   |
+  a1.           |
+  R1*3/2 * 4    |
+  r4 e'2 c a4 ~ |
+  
+  % Line 11
+  a d2 b g4 ~ |
+  g c2 a d4 ~ |
+  d b a1      |
+  g1 r2       |
+  R1*3/2 * 3  |
+  a2. b8 c d2 |
+  
+  % Line 12 p252
+  g,2. a8 b c2 |
+  f,2. f4 gis2 |
+  f2 f2. gis4  |
+  a1.          |
+  a'2. a4 g g  |
+  g2. d4 f f   |
+  e2. e4 g2    |
+  e2 e d       |
+  
+  % Line 13
+  e1.         |
+  e2. d8 c b2 |
+  a1.         |
+  a2 a2. gis4 |
+  a1.\fermata |
+  
+  \time 4/4
+  d16 a d f a f d c32 b a4 r |
+  r32 a' g a f g e f d4 r d32 e f g a f g e |
+  f4 r r32 a, a a d f f f a4 |
+  
+  % Line 14 p253
+  r32 a a f f d d a a4 r32 d d a a f f d d4 |
+  r32 a' b c d e f g a a, b c d a d a d4 r |
+  r32 f, g a b c d e f c d e f d f d f c d e f d f d f4 |
+  r4 \repeat unfold 7 { f8. g16 }
+  f4. f32 e d c \repeat unfold 6 { d8. e16 }
+  cis\longa\fermata
+  \fine
 }

@@ -1,4 +1,4 @@
-\version "2.25.30"
+\version "2.25.31"
 
 \include "definitions.ily"
 \include "notes/violin1.ily"
@@ -31,18 +31,15 @@ timeline = \new Voice {
   % p247
   \textMark "Line 2"
   s1 * 4 \break
+  \mark \default
   s1 * 4 \break
 
   \textMark "Line 3"
   s1 * 3 \break
-  s1 * 3
-  \once \omit Staff.TimeSignature
-  \time 2/1
-  s1*2 \bar "||" \pageBreak
+  s1 * 5\bar "||" \pageBreak
 
-  \once \omit Staff.TimeSignature
-  \time 4/4
   % p248
+  \mark \default
   s1 
   \textMark "Line 4" 
   s1 \break
@@ -57,7 +54,8 @@ timeline = \new Voice {
   
   % p249
   \textMark "Line 6"
-  s1 * 2 \break
+  s1 * 2 \bar "||" \break
+  \mark \default
   % new section
   s1 * 3 \break
   s1 * 3 \break
@@ -68,6 +66,7 @@ timeline = \new Voice {
 
   % p250
   \textMark "Line 8"
+  \mark \default
   s1 * 4 \break
   s1 * 4 \break
 
@@ -75,7 +74,7 @@ timeline = \new Voice {
   s1 * 2 \bar "||" \break
 
   \time 3/2
-  
+  \mark \default
   s1*3/2 * 6 \break
 
   % p251
@@ -95,12 +94,15 @@ timeline = \new Voice {
   \textMark "Line 13"
   s1*3/2 * 5 \bar "||" \break
 
+  \mark \default
   \time 4/4
   s1 * 3 \break
   
   \textMark "Line 14"
+  s1 * 2 \break
   s1 * 3 \break
-  s1 * 4
+  s1 * 2
+  
   \time 4/1
   s\longa
 

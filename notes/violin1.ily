@@ -78,6 +78,59 @@ violinI = \relative c'' {
   b b b b a a a a a4. gis8 |
   a2\fermata r2
   
+  c2. c4 c c |
+  b2. d4 d d |
+  c2. c4 b2 |
+  c2 a1 |
+  gis r2 |
+  g1 r2 |
   
+  % Line 10 p251
+  f2. e8 d c2 |
+  d2 b1 |
+  a1. |
+  r4 a'2 f d4 ~ |
+  d g2 e c4 ~ |
+  c f2 d g4 ~ |
+  g e d1 |
+  c r2 |
+  
+  % Line 11
+  R1*3/2 * 3
+  d2. e8 f g2 |
+  c,2. d8 e f2 |
+  b,2. b4 cis2 |
+  d2 d2. cis4 |
+  d fis2 d b4 ~ |
+  
+  % Line 12 p252
+  b e2 c a4 ~ |
+  a d2 b e4 ~ |
+  e cis b1 |
+  a1. |
+  c'2. c4 c c |
+  b2. d4 d d  |
+  c2. c4 b2 |
+  c a1 |
+  
+  % Line 13
+  gis1. |
+  g! | % Double check, but consistent with vla2
+  f2. e8 d c2 |
+  d b1 |
+  a1.\fermata
+  
+  \time 4/4
+  r2 d16 a d f a f d c32 b |
+  a4 r32 a' g a f g d f d4 r |
+  r d32 e f g a f g e f4 r32 a, a a d f f f |
+  
+  % Line 14 p253
+  a4 r32 a a f f d d a a4 r32 d d a a f f d |
+  d4 r r32 a' b c d e f g a a, b c d a d a |
+  d a b c d e f g a e f g a f a f a e f g a f a f a4 |
+  r \repeat unfold 7 { a8. bes16 } |
+  a4. a32 g f e \repeat unfold 4 { f8. g16 }
+  f4. g8 e\longa\fermata
 }
 

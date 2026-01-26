@@ -30,12 +30,7 @@ continuo = {
       d4 b e e, |
       b'2 e, |
       c'2 gis |
-      
-      \once \omit Staff.TimeSignature
-      \time 2/1
       a1 e |
-      \once \omit Staff.TimeSignature
-      \time 4/4
       e'1
       
       % Line 4
@@ -139,7 +134,6 @@ continuo = {
       d d d |
       d d d |
       d,
-      \time 4/1
       a'\longa
       \fine
     }
@@ -212,8 +206,8 @@ continuo = {
       % Line 12
       <5>2 s1 |
       <_+>2 <5> s |
-      s1*3/2 * 5 |
-      s2 <7> <6> |
+      s1*3/2 * 6 |
+      s2 <7> <6> | % TODO: WRONG PLACE
       
     }
   >>

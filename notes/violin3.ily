@@ -59,5 +59,24 @@ violinIII = \relative c'' {
   
   % Line 12 p252
   g1 a2 |
+  fis2 b fis | % TODO: Supposed to be G# beat 3???
+  e e1 |
+  e1. |
+  a2. c4 e e |
+  d2. b4 d d |
+  e2. e4 e2 |
+  e2 c a |
   
+  % Line 13
+  b1. |
+  c1 d2 |
+  d2. d,4 e2 |
+  fis2 e1 | 
+  e1. |
+  \time 4/4
+  R1 * 6
+  
+  % Line 14 p253
+  f1 | f1 | f1 | 
+  a1 a\longa\fermata
 }

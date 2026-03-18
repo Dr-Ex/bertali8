@@ -103,7 +103,7 @@ celloI = \relative c' {
   a,1.
   
   \time 4/4
-  s1 * 6
+  R1 * 6
   d1 d d d |
   a\longa\fermata
   \fine
